@@ -40,13 +40,24 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 -   [ ] Mention two parts of Express that you learned about this week.
 
+    Express has built in middleware.
+    Express can create routers, which are similar to react components in function.
+
 -   [ ] Describe Middleware?
+
+    Middleware is code that requests are passed through before being used by the server. It could be a logger, or a function that validates data.
 
 -   [ ] Describe a Resource?
 
+    In APIs, every piece of data we work with is a resource. And we access and modify these resources from the client-side using endpoints.
+
 -   [ ] What can the API return to help clients know if a request was successful?
 
+    Status messages are used to indicate success or failure; the standard 200 is used to indicate the request was good and typically to provide data in response, but there are other 20# messages that are used for various tasks.
+
 -   [ ] How can we partition our application into sub-applications?
+
+    We split up our application using routers. Each router will handle specific endpoints and can contain nested routers, similar to how react components handle specific tasks.
 
 ## Minimum Viable Product
 
